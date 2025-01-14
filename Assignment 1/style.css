@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+.contaner{
+    display: flex;
+    justify-content:space-between;
+    background-color: #433878;
+}
+
+.icon{
+    width: 200px;
+    height: 150px;
+    animation-name: move-right;
+    animation-duration: 3s;
+    align-items: center;
+}
+
+@keyframes move-right {
+    0% {
+        transform: translate(-200px);
+    }
+
+    100% {
+        transform: translate(0px);
+    }
+}
+
+h1{
+    display: flex;
+    color: white;
+    animation-name: move-left;
+    animation-duration: 3s;
+}
+
+@keyframes move-left {
+    0% {
+        transform: translate(500px);
+    }
+
+    100% {
+        transform: translate(0px);
+    }
+}
+
+header{
+    background-color:#E4B1F0;
+    height: 200px;
+}
+
+ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none; 
+    color: white;
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+nav{
+    padding: 5px;
+    height: 40px;
+    animation-name: move;
+    animation-duration: 3s;
+    display: flex;
+    align-items: center;
+}
+
+@keyframes move {
+    0% {
+        transform: translate(-200px);
+    }
+
+    100% {
+        transform: translate(0px);
+    }
+}
+
+section{
+   
+    padding: 2%;
+    display: flex;
+    gap: 25px;
+}
+
+h3:hover{
+    color:#A294F9;
+}
+
+.text-color:hover{
+    color: #A294F9;
+}
+
+.text-color{
+    animation-name: move-left;
+    animation-duration: 3s;
+}
+
+@keyframes move-left {
+    0% {
+        transform: translate(500px);
+    }
+
+    100% {
+        transform: translate(0px);
+    }
+}
+
+main{
+    background-color: #FFE1FF;
+}
+
+.animation{
+    animation-name: move;
+    animation-duration: 3s;
+}
+
+@keyframes move {
+    0% {
+        transform: translate(-200px);
+    }
+
+    100% {
+        transform: translate(0px);
+    }
+}
+
+.animation-one{
+    animation-name: move-left;
+    animation-duration: 3s;
+}
+
+@keyframes move-left {
+    0% {
+        transform: translate(500px);
+    }
+
+    100% {
+        transform: translate(0px);
+    }
+}
+
+footer{
+    margin-bottom: 1px;
+    background-color: #433878;
+}
+
+.color{
+    color: white;
+}
+
+.last{
+    background-color: #433878;
+}

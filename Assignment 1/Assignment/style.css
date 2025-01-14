@@ -1,0 +1,32 @@
+.contaner{
+       height: 50%;
+       width: 50%;
+       margin: auto;
+      text-align: center;
+}
+
+.navgation{
+    padding: 15px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    
+}
+.navgation:hover a{
+    color: red;
+}
+
+img{
+    padding: 5px;
+    margin: 10x;
+    height: 40%;
+    width: 30%;
+    display: inline;
+}
+.text{
+    text-align: center;
+}
